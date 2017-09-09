@@ -18,14 +18,18 @@ else
     fi
 fi
 
+
+
 echo "Running brew bundle...";
 
 brew bundle;
 
+echo "brew bundle complete";
+
 # do some ruby specific stuff
 RUBY_VERSION=2.4.1
-echo "🦄 Using Ruby " $RUBY_VERSION
-rbenv install $RUBY_VERSION
+echo "🦄  setting up Ruby" $RUBY_VERSION
+rbenv install -s $RUBY_VERSION
 rbenv global $RUBY_VERSION
 
-echo "brew bundle complete";
+echo "Setup complete";
