@@ -1,27 +1,72 @@
 # dev-workstation
-Setting up a dev workstation, one developer at a time
+Setting up an macOS dev workstation
 
 ## Pre-requisites
 
 ## Install
-
 ```
 ./setup
 ```
 
-## Stuff
+## What we use?
+The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 
-Tools:
-* [Homebrew](https://brew.sh)
-* [Git] for version control
-* [Tmux] for saving project state and switching between projects
+### Version control
+- [git](https://git-scm.com/)
 
-Programming languages, package managers, and configuration:
+### Shell
+- [bash-it](https://github.com/Bash-it/bash-it)
+- [bash-completion](https://github.com/scop/bash-completion)
 
-* [Node.js] and [NPM] for running apps and installing JavaScript packages
-* [Yarn] for managing JavaScript packages
+### Terminal
+- [iterm2](https://www.iterm2.com/)
 
-Databases:
+### Languages
+- [php](https://php.net)
+- [go](https://golang.org)
+- [node](https://nodejs.org)
+- [ruby](https://www.ruby-lang.org/en/)
 
-* [Mysql]
-* [Redis] for storing key-value data
+### Editors/IDE
+- [phpstorm](https://www.jetbrains.com/phpstorm/)
+- [vim](http://vim-bootstrap.com/)
+- [sublime](http://sublimetext.com)
+
+### Package managers
+- [composer](https://getcomposer.org/)
+- [npm](https://npmjs.org)
+- [yarn](https://yarnpkg.com/en/)
+
+### Databases
+- [mysql](https://www.mysql.com)
+- [redis](https://redis.io/)
+
+## Messaging
+- [rabbitmq](https://www.rabbitmq.com/)
+
+## Containers
+- [docker](https://www.docker.com)
+- [kubernetes-cli](https://kubernetes.io/)
+
+### Utilities
+- tmux
+- tree
+- socat
+- wget
+- fzf
+- watch
+- ag
+- jq
+- grip
+- direnv
+- fasd
+- spectacle
+- skitch
+- ngrok
+
+### Music
+- spotify
+
+### Web
+- google-chrome
+- slack

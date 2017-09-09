@@ -25,10 +25,15 @@ brew 'yarn'
 # databases
 brew 'mysql'
 brew 'redis'
+cask 'sequel-pro'
+
+# messaging
+brew 'rabbitmq'
 
 # editors
 brew 'vim'
 cask 'phpstorm'
+cask 'sublime-text'
 
 # utilities
 brew 'tmux'
@@ -47,6 +52,7 @@ cask 'spectacle'
 cask 'skitch'
 cask 'ngrok'
 cask 'docker'
+brew 'kubernetes-cli'
 
 # fun
 cask 'spotify'
