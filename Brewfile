@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 # install packages
 tap 'caskroom/homebrew-cask' || true
+tap 'homebrew/homebrew-php' || true
 
 brew 'git'
 brew 'bash-completion'
