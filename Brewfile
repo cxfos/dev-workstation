@@ -28,6 +28,7 @@ brew 'redis'
 
 # editors
 brew 'vim'
+cask 'phpstorm'
 
 # utilities
 brew 'tmux'
@@ -42,11 +43,18 @@ brew 'grip'
 brew 'direnv'
 brew 'fasd'
 
-# Casks
-cask 'iterm2'
+cask 'spectacle'
+cask 'skitch'
 cask 'ngrok'
-cask 'phpstorm'
+cask 'docker'
+
+# fun
+cask 'spotify'
+
+# terminal
+cask 'iterm2'
+
+# web
 cask 'google-chrome'
 cask 'slack'
-cask 'spotify'
-cask 'spectacle'
+
