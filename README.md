@@ -2,6 +2,9 @@
 Setting up an macOS dev workstation
 
 ## Pre-requisites
+```
+git clone https://github.com/bold-commerce/dev-workstation.git
+```
 
 ## Install
 ```
