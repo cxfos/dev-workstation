@@ -18,8 +18,9 @@ brew 'redis'
 brew 'vim'
 
 # utilities
-brew 'socat'
+brew 'tmux'
 brew 'tree'
+brew 'socat'
 brew 'wget'
 brew 'fzf'
 brew 'watch'
@@ -28,11 +29,10 @@ brew 'jq'
 brew 'grip'
 brew 'direnv'
 brew 'fasd'
-brew 'ngrok'
-
-brew 'tmux'
 
 # Casks
+cask 'ngrok'
+cask 'phpstorm'
 cask 'google-chrome'
 cask 'slack'
 cask 'iterm2'
