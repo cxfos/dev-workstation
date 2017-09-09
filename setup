@@ -22,4 +22,10 @@ echo "Running brew bundle...";
 
 brew bundle;
 
+# do some ruby specific stuff
+RUBY_VERSION=2.4.1
+echo "🦄 Using Ruby " $RUBY_VERSION
+rbenv install $RUBY_VERSION
+rbenv global $RUBY_VERSION
+
 echo "brew bundle complete";
