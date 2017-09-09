@@ -41,4 +41,12 @@ else
   ~/.bash_it/install.sh
 fi
 
+if [ -x ~/.vimrc ];
+then
+  echo "Skipping vim config, since .vimrc already exists.";
+else
+  curl 'http://vim-bootstrap.com/generate.vim' --data 'langs=javascript&langs=php&langs=html&langs=ruby&langs=go&editor=vim' > ~/.vimrc
+fi
+
+
 echo "Setup complete";
