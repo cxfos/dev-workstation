@@ -1,0 +1,25 @@
+#!/bin/sh
+
+
+if [ -x /usr/local/bin/brew ];
+then
+    echo "Skipping install of brew. It is already installed.";
+    echo "Updating brew..."
+    brew update;
+    echo "Updated brew."
+else
+    echo "Installing brew...";
+    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+    if [ -x /usr/local/bin/brew ];
+    then
+        echo "Installed brew";
+    else
+        exit 1;
+    fi
+fi
+
+echo "Running brew bundle...";
+
+brew bundle;
+
+echo "brew bundle complete";

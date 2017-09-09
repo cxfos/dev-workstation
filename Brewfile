@@ -27,6 +27,7 @@ brew 'jq'
 brew 'grip'
 brew 'direnv'
 brew 'fasd'
+brew 'ngrok'
 
 brew 'tmux'
 
