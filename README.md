@@ -61,14 +61,14 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 - ag
 - jq
 - grip
-- direnv
-- fasd
-- spectacle
-- skitch
-- ngrok
+- [direnv](https://direnv.net/)
+- [fasd](https://github.com/clvv/fasd)
+- [spectacle](https://www.spectacleapp.com/)
+- [skitch](https://evernote.com/products/skitch)
+- [ngrok](https://ngrok.com/)
 
 ### Music
-- spotify
+- [spotify](https://www.spotify.com/ca-en/)
 
 ### Web
 - google-chrome
