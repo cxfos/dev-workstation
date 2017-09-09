@@ -28,8 +28,12 @@ echo "brew bundle complete";
 
 # do some ruby specific stuff
 RUBY_VERSION=2.4.1
-echo "🦄  setting up Ruby" $RUBY_VERSION
+echo "🦄  ruby" $RUBY_VERSION
 rbenv install -s $RUBY_VERSION
 rbenv global $RUBY_VERSION
+
+# bash-it
+git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+~/.bash_it/install.sh
 
 echo "Setup complete";
