@@ -16,7 +16,8 @@ git clone https://github.com/bold-commerce/dev-workstation.git
 ./setup
 ```
 
-Running setup should look something like:
+Running [./setup](setup) should look something like this:
+
 ![this](example.png)
 
 ## What we use?
