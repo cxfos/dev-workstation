@@ -14,6 +14,8 @@ brew 'bash-completion'
 brew 'node'
 brew 'go'
 brew 'php70'
+brew 'php70-mcrypt'
+brew 'php70-xdebug'
 
 brew 'rbenv'
 brew 'ruby-build'
