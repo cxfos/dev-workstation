@@ -1,6 +1,10 @@
 # dev-workstation
 Setting up an macOS dev workstation 💻 ?
 
+This can be used to setup a new laptop, however we are also looking to update these scripts so that they are idempotent and can be used to update workstations.
+
+*Note: This has been tested as of macOS Sierra*
+
 ## Pre-requisites
 ```
 git clone https://github.com/bold-commerce/dev-workstation.git
