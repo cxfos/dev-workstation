@@ -1,5 +1,5 @@
 # dev-workstation
-Setting up an macOS dev workstation
+Setting up an macOS dev workstation 💻 ?
 
 ## Pre-requisites
 ```
