@@ -16,7 +16,7 @@ git clone https://github.com/bold-commerce/dev-workstation.git
 ./setup
 ```
 
-Running [./setup](setup) should look something like this:
+**Example output:**
 
 ![this](example.png)
 
