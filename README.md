@@ -4,7 +4,7 @@ Setting up an macOS dev workstation 💻 ?
 This script can be used to setup a new laptop, however we are also looking to update these scripts so that they are idempotent and can be used to update workstations.
 Also looking to make it so that supports bash and zsh users.
 
-*Note: This has been tested as of macOS Sierra*
+*Note: This has been tested as of macOS Sierra 10.12.6*
 
 ## Pre-requisites
 ```
@@ -15,6 +15,9 @@ git clone https://github.com/bold-commerce/dev-workstation.git
 ```
 ./setup
 ```
+
+Running setup should look something like:
+![this](example.png)
 
 ## What we use?
 The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
