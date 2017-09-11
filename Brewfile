@@ -16,6 +16,7 @@ brew 'go'
 brew 'php70'
 brew 'php70-mcrypt'
 brew 'php70-xdebug'
+brew 'php56'
 
 brew 'rbenv'
 brew 'ruby-build'
