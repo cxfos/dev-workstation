@@ -20,7 +20,7 @@ git clone https://github.com/bold-commerce/dev-workstation.git
 
 ![this](example.png)
 
-## What we use?
+## What do we use?
 The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 
 ### Version control
