@@ -50,6 +50,7 @@ brew 'jq'
 brew 'grip'
 brew 'direnv'
 brew 'fasd'
+brew 'tig'
 
 cask 'spectacle'
 cask 'skitch'
