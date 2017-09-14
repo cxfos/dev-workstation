@@ -61,20 +61,21 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 - [kubernetes-cli](https://kubernetes.io/)
 
 ### Utilities
-- [tmux](https://robots.thoughtbot.com/a-tmux-crash-course)
+- [tmux](https://robots.thoughtbot.com/a-tmux-crash-course) terminal multiplexer (windows for terminals)
 - [tree](https://linux.die.net/man/1/tree)
 - [wget](https://www.gnu.org/software/wget/)
 - [fzf](https://github.com/junegunn/fzf)
 - [fasd](https://github.com/clvv/fasd)
 - [watch](https://www.tutorialspoint.com/unix_commands/watch.htm)
-- [ag](https://github.com/ggreer/the_silver_searcher)
-- [jq](https://stedolan.github.io/jq/)
-- [grip](https://github.com/joeyespo/grip)
-- [direnv](https://direnv.net/)
+- [ag](https://github.com/ggreer/the_silver_searcher) Like grep but better
+- [jq](https://stedolan.github.io/jq/) working with json
+- [grip](https://github.com/joeyespo/grip) local Markdown viewer
+- [direnv](https://direnv.net/) Automatically load/unload env vars
 - [socat](https://linux.die.net/man/1/socat)
-- [spectacle](https://www.spectacleapp.com/)
-- [skitch](https://evernote.com/products/skitch)
-- [ngrok](https://ngrok.com/)
+- [spectacle](https://www.spectacleapp.com/) Organize windows in OSX without a :mouse:
+- [skitch](https://evernote.com/products/skitch) When you need screenshots
+- [ngrok](https://ngrok.com/) Secure tunnel to localhost
+- [tig](https://jonas.github.io/tig/) Text mode interface for git
 
 ### Music
 - [spotify](https://www.spotify.com/ca-en/)
