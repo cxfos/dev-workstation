@@ -83,3 +83,10 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 ### Web
 - google-chrome
 - slack
+
+
+## Troubleshooting
+To ensure `vim` works properly with `git` commit messages, add the following to your `.bash_profile` or `.zshrc`:
+```
+export EDITOR=vim
+```
