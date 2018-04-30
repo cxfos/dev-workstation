@@ -38,6 +38,7 @@ brew 'rabbitmq'
 brew 'vim'
 cask 'phpstorm'
 cask 'sublime-text'
+cask 'visual-studio-code'
 
 # utilities
 brew 'tmux'
