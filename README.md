@@ -4,7 +4,7 @@ Setting up an macOS dev workstation 💻 ?
 This script can be used to setup a new laptop, however we are also looking to update these scripts so that they are idempotent and can be used to update workstations.
 Also looking to make it so that supports bash and zsh users.
 
-*Note: This has been tested as of macOS Sierra 10.12.6*
+*Note: This has been tested as of macOS High Sierra 10.13.3*
 
 ## Pre-requisites
 ```
