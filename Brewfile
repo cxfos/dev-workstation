@@ -50,6 +50,7 @@ brew 'grip'
 brew 'direnv'
 brew 'fasd'
 brew 'tig'
+brew 'nano'
 
 cask 'spectacle'
 cask 'skitch'
