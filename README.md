@@ -79,6 +79,7 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 - [skitch](https://evernote.com/products/skitch) When you need screenshots
 - [ngrok](https://ngrok.com/) Secure tunnel to localhost
 - [tig](https://jonas.github.io/tig/) Text mode interface for git
+- [gpg-suite](gpg-suite) GPG Keychain
 
 ### Music
 - [spotify](https://www.spotify.com/ca-en/)
