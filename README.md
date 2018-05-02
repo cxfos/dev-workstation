@@ -39,6 +39,7 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 - [go](https://golang.org)
 - [node](https://nodejs.org)
 - [ruby](https://www.ruby-lang.org/en/)
+- [python3](https://www.python.org/)
 
 ### Editors/IDE
 - [phpstorm](https://www.jetbrains.com/phpstorm/)
