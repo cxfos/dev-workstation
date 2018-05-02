@@ -16,6 +16,7 @@ brew 'node'
 brew 'go'
 brew 'php70'
 brew 'php56'
+brew 'python3'
 
 brew 'rbenv'
 brew 'ruby-build'
