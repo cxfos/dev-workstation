@@ -53,6 +53,7 @@ brew 'fasd'
 brew 'tig'
 brew 'nano'
 
+cask 'gpg-suite'
 cask 'spectacle'
 cask 'skitch'
 cask 'ngrok'
