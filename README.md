@@ -26,6 +26,7 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 ### Version control
 - [git](https://git-scm.com/)
 - [git-crypt](https://www.agwa.name/projects/git-crypt/)
+- [github for git](https://hub.github.com/)
 
 ### Shell
 - [bash-it](https://github.com/Bash-it/bash-it)
@@ -80,7 +81,9 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 - [skitch](https://evernote.com/products/skitch) When you need screenshots
 - [ngrok](https://ngrok.com/) Secure tunnel to localhost
 - [tig](https://jonas.github.io/tig/) Text mode interface for git
-- [gpg-suite](gpg-suite) GPG Keychain
+- [gpg-suite](https://gpgtools.org/) GPG Keychain
+- [OpenSSL](http://brewformulas.org/Openssl)OpenSSL
+- [google-cloud-sdk](https://cloud.google.com/sdk/) Google Cloud SDK
 
 ### Music
 - [spotify](https://www.spotify.com/ca-en/)
