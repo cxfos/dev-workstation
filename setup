@@ -18,8 +18,6 @@ else
     fi
 fi
 
-
-
 echo "Running brew bundle...";
 
 brew bundle;
