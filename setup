@@ -25,7 +25,7 @@ brew bundle;
 echo "brew bundle complete";
 
 # do some ruby specific stuff
-RUBY_VERSION=2.4.1
+RUBY_VERSION=2.5.1
 echo "🦄  ruby" $RUBY_VERSION
 rbenv install -s $RUBY_VERSION
 rbenv global $RUBY_VERSION
