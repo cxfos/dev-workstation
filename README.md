@@ -4,7 +4,7 @@ Setting up an macOS dev workstation 💻 ?
 This script can be used to setup a new laptop, however we are also looking to update these scripts so that they are idempotent and can be used to update workstations.
 Also looking to make it so that supports bash and zsh users.
 
-*Note: This has been tested as of macOS Sierra 10.12.6*
+*Note: This has been tested as of macOS High Sierra 10.13.3*
 
 ## Pre-requisites
 ```
@@ -25,6 +25,8 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 
 ### Version control
 - [git](https://git-scm.com/)
+- [git-crypt](https://www.agwa.name/projects/git-crypt/)
+- [github for git](https://hub.github.com/)
 
 ### Shell
 - [bash-it](https://github.com/Bash-it/bash-it)
@@ -38,12 +40,14 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 - [go](https://golang.org)
 - [node](https://nodejs.org)
 - [ruby](https://www.ruby-lang.org/en/)
+- [python3](https://www.python.org/)
 
 ### Editors/IDE
 - [phpstorm](https://www.jetbrains.com/phpstorm/)
 - [vim](http://vim-bootstrap.com/)
 - [sublime](http://sublimetext.com)
 - [vscode](https://code.visualstudio.com/)
+- [nano](https://www.nano-editor.org/)
 
 ### Package managers
 - [composer](https://getcomposer.org/)
@@ -77,6 +81,9 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 - [skitch](https://evernote.com/products/skitch) When you need screenshots
 - [ngrok](https://ngrok.com/) Secure tunnel to localhost
 - [tig](https://jonas.github.io/tig/) Text mode interface for git
+- [gpg-suite](https://gpgtools.org/) GPG Keychain
+- [OpenSSL](http://brewformulas.org/Openssl)OpenSSL
+- [google-cloud-sdk](https://cloud.google.com/sdk/) Google Cloud SDK
 
 ### Music
 - [spotify](https://www.spotify.com/ca-en/)
