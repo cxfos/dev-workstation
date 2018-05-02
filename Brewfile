@@ -6,6 +6,7 @@ tap 'homebrew/core' || true
 
 # version control
 brew 'git'
+brew 'git-crypt'
 
 # shell
 brew 'bash-completion'
@@ -65,6 +66,6 @@ cask 'spotify'
 cask 'iterm2'
 
 # web
- cask 'google-chrome'
+cask 'google-chrome'
 cask 'slack'
 
