@@ -7,6 +7,7 @@ tap 'homebrew/core' || true
 # version control
 brew 'git'
 brew 'git-crypt'
+brew 'hub'
 
 # shell
 brew 'bash-completion'
@@ -53,7 +54,9 @@ brew 'direnv'
 brew 'fasd'
 brew 'tig'
 brew 'nano'
+brew 'openssl'
 
+cask 'google-cloud-sdk'
 cask 'gpg-suite'
 cask 'spectacle'
 cask 'skitch'
