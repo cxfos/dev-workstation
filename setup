@@ -31,13 +31,21 @@ rbenv install -s $RUBY_VERSION
 rbenv global $RUBY_VERSION
 
 # bash-it
-# if [ -x ~/.bash_it/install.sh ];
-# then
-#   echo "Skipping install of bash-it, since it's already installed.";
-# else
-#   git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
-#   ~/.bash_it/install.sh
-# fi
+read -p "Install bash-it? y/n " -n 1 -r
+echo # move to a new line
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+  echo "Installing bash-it"
+    if [ -x ~/.bash_it/install.sh ]; then
+        echo ", since it's already installed.";
+    else
+    git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+    ~/.bash_it/install.sh
+    fi
+else
+  echo "Skipping install of bash-it"
+fi
+
 
 if [ -x ~/.vimrc ];
 then
