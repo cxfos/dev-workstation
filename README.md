@@ -25,6 +25,7 @@ The installation uses a [Brewfile](Brewfile) of packages and a few scripts.
 
 ### Version control
 - [git](https://git-scm.com/)
+- [git-crypt](https://www.agwa.name/projects/git-crypt/)
 
 ### Shell
 - [bash-it](https://github.com/Bash-it/bash-it)
