@@ -15,7 +15,7 @@ brew 'bash-completion'
 # languages
 brew 'node'
 brew 'go'
-brew 'php70'
+brew 'php71'
 brew 'php56'
 brew 'python3'
 
